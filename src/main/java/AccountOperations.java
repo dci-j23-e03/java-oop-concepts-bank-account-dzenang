@@ -45,6 +45,12 @@ public class AccountOperations {
         checkBalanceFrom(account4, 424);
         checkBalanceFrom(account5, -30);
         checkBalanceFrom(account6, 600);
+
+        // experimenting
+//        Account savingsAccount = new SavingsAccount(232323, 0.5f);
+//        savingsAccount.doUpdate();
+//        savingsAccount.addInterest();
+//        savingsAccount.addInterest(Math.round(savingsAccount.getBalance()) * savingsAccount.getInterest());
     }
 
     public static void depositInto(double amount, Account account) {

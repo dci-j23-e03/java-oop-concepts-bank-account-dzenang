@@ -28,4 +28,8 @@ public class CurrentAccount extends Account {
             System.out.printf("CurrentAccount.doUpdate(...): account %d is in overdraft.%n", getAccountNumber());
         }
     }
+
+    public float getOverdraftLimit() {
+        return overdraftLimit;
+    }
 }
